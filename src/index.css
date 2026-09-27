@@ -280,12 +280,10 @@ main {
   display: inline-block;
   font-size: 0.85rem;
   margin-left: 0.25rem;
-  transition: transform .3s ease;
 }
 
 .challenge-item-details.expanded .challenge-item-details-icon {
   transform: rotate(180deg);
-  transition: transform .3s ease;
 }
 
 .challenge-item-description {
@@ -315,20 +313,10 @@ main {
   width: 30rem;
   max-width: 90%;
   z-index: 10;
-  animation: fadeIn 1.5s ease;
 }
 
 .modal h2 {
   margin-top: 0;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 
 .new-challenge-actions {
